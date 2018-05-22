@@ -1,0 +1,13 @@
+{
+  "name": "indecision-app",
+  "version": "1.0.0",
+  "description": "A simple app to help you make decisions",
+  "main": "index.js",
+  "repository": "https://github.com/skywalker212/indecision-app.git",
+  "author": "Akash Gajjar <akashgajjar8@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
