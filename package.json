@@ -3,11 +3,37 @@
   "version": "1.0.0",
   "description": "A simple app to help you make decisions",
   "main": "index.js",
-  "repository": "https://github.com/skywalker212/indecision-app.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skywalker212/indecision-app.git"
+  },
   "author": "Akash Gajjar <akashgajjar8@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1"
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "live-server": "^1.2.0",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "validator": "^10.2.0",
+    "webpack": "^4.8.3",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "bugs": {
+    "url": "https://github.com/skywalker212/indecision-app/issues"
+  },
+  "homepage": "https://github.com/skywalker212/indecision-app#readme",
+  "devDependencies": {
+    "webpack-cli": "^2.1.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "live-server public",
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
   }
 }
