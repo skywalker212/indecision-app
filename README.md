@@ -1,6 +1,10 @@
 # indecision-app
 
+[![build-status](https://travis-ci.com/skywalker212/indecision-app.svg?branch=master)](https;//travis-ci.com/skywalker212/indecision-app)
+
 A web app to help you decide what to do when you're stuck making a decision. This could act as a TODO list for you also. Made using React.
+
+Checkout the site [here](https://skywalker212.github.io/indecision-app/)
 
 ![screenshot](screenshot.png)
 
@@ -18,5 +22,3 @@ checkout [package.json](package.json) for more info about the various modules us
 ## Contribute
 
 fork this repo and make changes, but make sure that you have raised an issue first. Suggestions and improvements are always welcome.
-
-reach me at akashgajjar8@gmail.com
